@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import { Dialog } from 'components/Dialog';
+import { Dialog } from './../../components/Dialog';
 
 export function SupportForm() {
     return (
