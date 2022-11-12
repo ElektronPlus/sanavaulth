@@ -1,9 +1,7 @@
 ## Technology
 
 ### Next.js
-![nextjs-logotype-dark-background](https://user-images.githubusercontent.com/61631665/201474508-05145d74-54a6-4c51-beaa-2ba853809355.png#gh-dark-mode-only)
-![nextjs-logotype-light-background](https://user-images.githubusercontent.com/61631665/201474488-eb8ef9aa-f02d-4061-9963-41909d6596b6.png##gh-light-mode-only)
-
+<img width="1054" alt="image" src="https://user-images.githubusercontent.com/61631665/201474656-55f47c53-0152-435b-bde9-b9a04ee155ee.png">
 
 ### tailwindcss
 ![image](https://user-images.githubusercontent.com/61631665/201474442-62756658-f3a1-4c94-992e-1871df1d46b7.png)
