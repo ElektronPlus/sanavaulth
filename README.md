@@ -1,17 +1,14 @@
 ## Technology
 
-### Next.js
 <img width="1054" alt="image" src="https://user-images.githubusercontent.com/61631665/201474656-55f47c53-0152-435b-bde9-b9a04ee155ee.png">
 
 <p align="center"><i>A flexible React framework that gives you building blocks to create fast web applications</i></p>
 
-### tailwindcss
 ![image](https://user-images.githubusercontent.com/61631665/201474442-62756658-f3a1-4c94-992e-1871df1d46b7.png)
 
 <p align="center"><i>Rapidly build modern websites without ever leaving your HTML</i></p>
 
 
-### Supabase
 ![supabase-logo-wordmark--dark](https://user-images.githubusercontent.com/61631665/201474552-922a0cf4-6d1c-483e-a5ab-eaf2645d0311.png#gh-dark-mode-only)
 ![supabase-logo-wordmark--light](https://user-images.githubusercontent.com/61631665/201474559-fbee2eb4-89fe-441a-911f-6b8a05539dc6.png##gh-light-mode-only)
 
