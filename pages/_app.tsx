@@ -1,13 +1,9 @@
 import "styles/globals.css";
 import { ReactNode } from "react";
 import { Inter } from "@next/font/google";
+import type { AppProps } from 'next/app';
 
 const inter = Inter();
-
-interface AppProps {
-    Component: ReactNode;
-    pageProps: ReactNode;
-}
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
