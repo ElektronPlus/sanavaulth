@@ -1,14 +1,20 @@
-import 'styles/globals.css';
+import { Inter } from "@next/font/google";
+import "styles/globals.css";
+import { ReactNode } from "react";
+
+const inter = Inter();
+
+interface RootLayoutProps {
+  children: ReactNode;
+}
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: RootLayoutProps) {
   return (
-    <html>
+    <html className={inter.className}>
       <head />
-      <body>{children}</body>
+      <body className="bg-zinc-900 text-white">{children}</body>
     </html>
-  )
+  );
 }
