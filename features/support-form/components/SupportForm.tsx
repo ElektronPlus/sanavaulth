@@ -14,7 +14,7 @@ export function SupportForm() {
         <Input
           type="text"
           name="nazwisko"
-          placeholder="Jurczak"
+          placeholder="Grabowska"
           label="Nazwisko"
         />
         <Input
