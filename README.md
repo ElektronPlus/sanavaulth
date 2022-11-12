@@ -1,8 +1,17 @@
 ## Technology
 
-### Supabase
+### Next.js
+![nextjs-logotype-dark-background](https://user-images.githubusercontent.com/61631665/201474508-05145d74-54a6-4c51-beaa-2ba853809355.png#gh-dark-mode-only)
+![nextjs-logotype-light-background](https://user-images.githubusercontent.com/61631665/201474488-eb8ef9aa-f02d-4061-9963-41909d6596b6.png##gh-light-mode-only)
 
-![image](https://user-images.githubusercontent.com/61631665/201350447-93742560-be6f-448e-9ba9-13470d3d37b0.png)
+
+### tailwindcss
+![image](https://user-images.githubusercontent.com/61631665/201474442-62756658-f3a1-4c94-992e-1871df1d46b7.png)
+
+
+### Supabase
+![supabase-logo-wordmark--dark](https://user-images.githubusercontent.com/61631665/201474552-922a0cf4-6d1c-483e-a5ab-eaf2645d0311.png#gh-dark-mode-only)
+![supabase-logo-wordmark--light](https://user-images.githubusercontent.com/61631665/201474559-fbee2eb4-89fe-441a-911f-6b8a05539dc6.png##gh-light-mode-only)
 
 <p align="center"><i>Supabase allows us to build powerful back-end features quickly</i></p>
 <br>
