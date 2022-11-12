@@ -3,8 +3,12 @@
 ### Next.js
 <img width="1054" alt="image" src="https://user-images.githubusercontent.com/61631665/201474656-55f47c53-0152-435b-bde9-b9a04ee155ee.png">
 
+<p align="center"><i>A flexible React framework that gives you building blocks to create fast web applications</i></p>
+
 ### tailwindcss
 ![image](https://user-images.githubusercontent.com/61631665/201474442-62756658-f3a1-4c94-992e-1871df1d46b7.png)
+
+<p align="center"><i>Rapidly build modern websites without ever leaving your HTML</i></p>
 
 
 ### Supabase
