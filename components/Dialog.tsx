@@ -17,12 +17,14 @@ export function Dialog({ button, children, description, title }: DialogProps) {
                 {button}
             </RadDialog.Trigger>
             <RadDialog.Portal>
-            <RadDialog.Overlay className='backdrop-blur fixed inset-0' />
-            <RadDialog.Content className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gray-800 py-5 pl-5 pr-8 text-white rounded-md drop-shadow-xl'>
-                <RadDialog.Title className='font-bold text-xl mb-2'>{title}</RadDialog.Title>
-                <RadDialog.Description>
-                    {description && description}
-                </RadDialog.Description>
+            <RadDialog.Overlay className='DialogOverlay backdrop-blur fixed inset-0' />
+            <RadDialog.Content className='DialogContent absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-zinc-800 py-5 pl-5 pr-8 text-white rounded-md drop-shadow-xl'>
+                <div className='mb-8'>
+                    <RadDialog.Title className='font-bold text-xl'>{title}</RadDialog.Title>
+                    <RadDialog.Description className="text-gray-300">
+                        {description && description}
+                    </RadDialog.Description>
+                </div>
                 {children}
                 <RadDialog.Close asChild className='mt-2 absolute right-4 top-2'>
                 <button aria-label="Close">
