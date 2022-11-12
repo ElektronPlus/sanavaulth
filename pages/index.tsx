@@ -1,9 +1,13 @@
 import { SupportForm } from "../features/support-form/components/SupportForm";
+import Head from "next/head";
 
 export default function HomePage() {
     return (
-        <div>
+        <>
+            <Head>
+                    <title>sanavaulth</title>
+            </Head>
             <SupportForm />
-        </div>
+        </>
     )
 }

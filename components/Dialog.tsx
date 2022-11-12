@@ -1,5 +1,3 @@
-'use client'
-
 import * as RadDialog from '@radix-ui/react-dialog';
 import { ReactNode } from "react";
 
