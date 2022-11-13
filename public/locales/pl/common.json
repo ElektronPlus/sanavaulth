@@ -1,3 +1,16 @@
 {
-    
+    "supportForm": {
+        "title": "Potrzebujesz pomocy?",
+        "description": "Odpiszemy w ciągu 24 godzin",
+        "textPlaceholder": "No sorry, ale mam problem z...",
+        "help": "Potrzebuję pomocy",
+        "request": "Treść zgłoszenia",
+        "namePlaceholder": "Zuzanna",
+        "surnamePlaceholder": "Grabowska",
+        "emailPlaceholder": "kontakt@sanah.pl"
+    },
+    "name": "Imię",
+    "surname": "Nazwisko",
+    "email": "E-mail",
+    "submit": "Wyślij"
 }

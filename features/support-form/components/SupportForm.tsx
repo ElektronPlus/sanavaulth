@@ -6,37 +6,35 @@ import { TextArea } from "components/TextArea";
 import { useTranslation } from "next-i18next";
 
 export function SupportForm() {
-
-    // Define file name (without .json). Then use t("name")
-    const { t } = useTranslation('support-form')
+    const { t } = useTranslation('common')
 
     return (
-        <Dialog title={t("title")} description={t("description")} button={<button className="absolute bottom-4 right-4">Potrzebuję pomocy</button>}>
+        <Dialog title={t("supportForm.title")} description={t("supportForm.description")} button={<button className="absolute bottom-4 right-4">{t("supportForm.help")}</button>}>
         <form className="grid gap-5">
             <Input
             type="text"
-            name="imie"
-            placeholder="Zuzanna"
+            name="firstName"
+            placeholder={t("supportForm.namePlaceholder")}
             label={t("name")}
             />
             <Input
             type="text"
-            name="nazwisko"
-            placeholder="Grabowska"
+            name="surName"
+            placeholder={t("supportForm.surnamePlaceholder")}
             label={t("surname")}
             />
             <Input
             type="email"
             name="email"
-            placeholder="kontakt@sanah.pl"
+            placeholder={t("supportForm.emailPlaceholder")}
             label={t("email")}
             />
             <TextArea
             name="text"
-            label={"Treść zgłoszenia"}
+            label={t("supportForm.request")}
             cols={30}
             rows={10}
-            placeholder={t("text-placeholder")}
+            placeholder={t("supportForm.textPlaceholder")}
             className="mt-2 rounded py-1 px-1"
             />
             <Button type="submit">{t("submit")}</Button>

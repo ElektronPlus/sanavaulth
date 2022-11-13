@@ -13,10 +13,10 @@ export default function HomePage() {
     )
 }
 
-export async function getStaticProps({ locale }:any) {
+export async function getStaticProps({ locale }: { locale: string }) {
     return {
         props: {
-            ...await serverSideTranslations(locale, ['support-form'])
+            ...await serverSideTranslations(locale, ['common'])
         }
     }
 }
