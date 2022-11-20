@@ -35,7 +35,7 @@ export function SupportForm() {
             cols={30}
             rows={10}
             placeholder={t("supportForm.textPlaceholder")}
-            className="mt-2 rounded py-1 px-1"
+            className="mt-2 rounded py-1 px-1 resize-none"
             />
             <Button type="submit">{t("submit")}</Button>
         </form>
