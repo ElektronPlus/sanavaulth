@@ -1,11 +1,14 @@
+import { forwardRef } from "react";
 import { twMerge } from "tailwind-merge";
 
 interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   name: string;
   label: string;
+  className?: string;
 }
 
-export function Input({ name, label, ...props }: InputProps) {
+const Input = forwardRef<HTMLInputElement, InputProps>((props, ref) => {
+  const { name, label, className } = props;
   return (
     <fieldset className="border-gray-500 relative rounded-md border px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-200">
       <label
@@ -16,12 +19,15 @@ export function Input({ name, label, ...props }: InputProps) {
       </label>
       <input
         {...props}
+        ref={ref}
         name={name}
         className={twMerge(
           "block w-full border-0 outline-0 p-0 text-white bg-inherit placeholder-gray-500 focus:ring-0 sm:text-sm",
-          props.className
+          className
         )}
       />
     </fieldset>
   );
-}
+});
+
+export default Input;
