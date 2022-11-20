@@ -1,12 +1,15 @@
+import { forwardRef } from "react";
 import { twMerge } from "tailwind-merge";
 
 interface TextAreaProps
   extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {
   name: string;
   label: string;
+  className?: string;
 }
 
-export function TextArea({ name, label, ...props }: TextAreaProps) {
+const TextArea = forwardRef<HTMLInputElement, TextAreaProps>((props, ref) => {
+  const { name, label, className } = props;
   return (
     <fieldset className="border-gray-500 relative rounded-md border px-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-200">
       <label
@@ -17,12 +20,15 @@ export function TextArea({ name, label, ...props }: TextAreaProps) {
       </label>
       <textarea
         {...props}
+        ref={ref}
         name={name}
         className={twMerge(
           "block w-full border-0 outline-0 p-0 text-white bg-inherit placeholder-gray-500 focus:ring-0 sm:text-sm",
-          props.className
+          className
         )}
       />
     </fieldset>
   );
-}
+})
+
+export default TextArea;
