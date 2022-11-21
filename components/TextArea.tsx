@@ -8,7 +8,7 @@ interface TextAreaProps
   className?: string;
 }
 
-const TextArea = forwardRef<HTMLInputElement, TextAreaProps>((props, ref) => {
+const TextArea = forwardRef<HTMLTextAreaElement, TextAreaProps>((props, ref) => {
   const { name, label, className } = props;
   return (
     <fieldset className="border-gray-500 relative rounded-md border px-2 shadow-sm focus-within:ring-1 focus-within:ring-gray-200">

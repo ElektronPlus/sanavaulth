@@ -14,7 +14,6 @@ export function SupportForm() {
   const { createMessage } = useMessageStore();
 
   function onMessageCreate(data: MessageInput) {
-    console.log(data);
     createMessage(data, "10000000-aaaa-bbbb-cccc-000000000001");
   }
 
