@@ -86,9 +86,11 @@ export function SupportForm() {
                 <HCaptcha
                     sitekey={`${process.env.NEXT_PUBLIC_HCAPTCHA_SITE_KEY}`}
                     onOpen={() => setCaptchaOpen(true)}
+                    onClose={() => setCaptchaOpen(false)}
                     onVerify={setToken}
                     onError={onError}
                     onExpire={onExpire}
+                    tabIndex={100}
                 />
                 <Button type="submit">{t("submit")}</Button>
             </form>
