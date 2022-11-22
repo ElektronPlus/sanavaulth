@@ -16,6 +16,7 @@
     "@graphql-codegen/introspection": "^2.2.1",
     "@graphql-codegen/near-operation-file-preset": "^2.4.4",
     "@graphql-codegen/typescript-operations": "^2.5.7",
+    "@hcaptcha/react-hcaptcha": "^1.4.4",
     "@next/font": "^13.0.3",
     "@radix-ui/react-dialog": "^1.0.2",
     "@types/node": "18.11.9",

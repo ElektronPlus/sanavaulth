@@ -6,11 +6,20 @@ interface DialogProps {
     children: ReactNode;
     description?: ReactNode;
     title: ReactNode;
+    open: boolean;
+    setOpen: (open: boolean) => void;
+    isCaptchaOpen: boolean;
 }
 
-export function Dialog({ button, children, description, title }: DialogProps) {
+export function Dialog({ button, children, description, title, open, setOpen, isCaptchaOpen }: DialogProps) {
+    const checkCanClose = () => {
+        if(!open) setOpen(true);
+        if(isCaptchaOpen) setOpen(true);
+        if(open && !isCaptchaOpen) setOpen(false);
+    }
+
     return (
-        <RadDialog.Root>
+        <RadDialog.Root open={open} onOpenChange={checkCanClose}>
             <RadDialog.Trigger asChild>
                 {button}
             </RadDialog.Trigger>
