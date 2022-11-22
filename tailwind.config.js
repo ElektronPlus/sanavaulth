@@ -1,3 +1,5 @@
+const { fontFamily } = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
@@ -6,7 +8,17 @@ module.exports = {
         "./features/**/*.{js,ts,jsx,tsx}",
       ],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ['var(--font-Domine))']
+        },
+        backgroundSize: ({ theme }) => ({
+            auto: 'auto',
+            cover: 'cover',
+            contain: 'contain',
+            ...theme('spacing')
+          })
     },
+},
     plugins: [],
 }
