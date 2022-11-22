@@ -23,7 +23,6 @@ function Header() {
                         <br />
                         <br />
                             <H className={`${domine.className} text-center text-6xl font-bold text-black`}>sanavaulth</H>
-                            <Level children={undefined} />
                             <p className="text-center text-black">Eldorado dla Twoich Plików</p>
                         <br />
                         <br />
