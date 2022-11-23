@@ -12,12 +12,6 @@ module.exports = {
             fontFamily: {
                 sans: ['var(--font-Domine))']
         },
-        backgroundSize: ({ theme }) => ({
-            auto: 'auto',
-            cover: 'cover',
-            contain: 'contain',
-            ...theme('spacing')
-          })
     },
 },
     plugins: [],
