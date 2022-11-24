@@ -13,7 +13,10 @@
         "title": "Zaloguj się",
         "emailInptLabel": "Adres E-mail",
         "emailInputPlaceholder": "kontakt@sanah.pl",
-        "button": "Wyslij link do logowania"
+        "button": "Wyslij link do logowania",
+        "noEmail": "Nie podano adresu e-mail",
+        "emailSended": "Link do logowania został wysłany na adres e-mail",
+        "cooldown": "Poczekaj minutę przed kolejnym mailem"
     },
     "name": "Imię",
     "surname": "Nazwisko",
