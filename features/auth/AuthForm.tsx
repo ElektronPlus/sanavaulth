@@ -23,6 +23,8 @@ export function AuthForm() {
                     message.innerHTML = t('loginForm.emailSended');
                 else if (message?.innerHTML == "For security purposes, you can only request this once every 60 seconds")
                     message.innerHTML = t('loginForm.cooldown');
+                else if (message?.innerHTML == "Signups not allowed for this instance")
+                    message.innerHTML = t('loginForm.noSignup');
             }
         }
         };
