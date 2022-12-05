@@ -1,6 +1,5 @@
 import { forwardRef } from "react";
 import { twMerge } from "tailwind-merge";
-import { forwardRef } from "react";
 
 interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   name: string;

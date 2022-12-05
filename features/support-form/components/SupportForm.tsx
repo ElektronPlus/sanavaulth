@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "components/Button";
 import { Dialog } from "components/Dialog";
-import Input from "components/Input";
-import TextArea from "components/TextArea";
+import { Input }  from "components/Input";
+import { TextArea } from "components/TextArea";
 import { useTranslation } from "next-i18next";
 import { useForm } from "react-hook-form";
 import { useMessageStore } from "../hooks/useMessageStore";
