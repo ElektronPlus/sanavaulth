@@ -1,0 +1,5 @@
+mutation CreateMessage($message: MessageInput!, $captcha: String!) {
+  createMessage(message: $message, captcha: $captcha) {
+    ...Message
+  }
+}
