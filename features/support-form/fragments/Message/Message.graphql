@@ -1,0 +1,6 @@
+fragment Message on Message {
+  content
+  name
+  surname
+  email
+}
