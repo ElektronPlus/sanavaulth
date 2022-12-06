@@ -9,6 +9,16 @@
         "surnamePlaceholder": "Grabowska",
         "emailPlaceholder": "kontakt@sanah.pl"
     },
+    "loginForm": {
+        "title": "Zaloguj się",
+        "emailInptLabel": "Adres E-mail",
+        "emailInputPlaceholder": "kontakt@sanah.pl",
+        "button": "Wyslij link do logowania",
+        "noEmail": "Nie podano adresu e-mail",
+        "emailSended": "Link do logowania został wysłany na adres e-mail",
+        "cooldown": "Poczekaj minutę przed kolejnym mailem",
+        "noSignup": "Nie masz konta! Aplikacja działa tylko po dostaniu zaproszenia"
+    },
     "name": "Imię",
     "surname": "Nazwisko",
     "email": "E-mail",

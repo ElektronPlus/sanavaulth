@@ -1,6 +1,7 @@
 import { SupportForm } from "../features/support-form/components/SupportForm";
 import Head from "next/head";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { AuthForm } from "features/auth/AuthForm";
 
 export default function HomePage() {
     return (
@@ -8,6 +9,7 @@ export default function HomePage() {
             <Head>
                     <title>sanavaulth</title>
             </Head>
+            <AuthForm />
             <SupportForm />
         </>
     )

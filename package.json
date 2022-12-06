@@ -18,6 +18,9 @@
     "@graphql-codegen/typescript-operations": "^2.5.7",
     "@next/font": "^13.0.3",
     "@radix-ui/react-dialog": "^1.0.2",
+    "@supabase/auth-helpers-nextjs": "^0.5.2",
+    "@supabase/auth-helpers-react": "^0.3.1",
+    "@supabase/auth-ui-react": "^0.2.6",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
@@ -41,6 +44,7 @@
     "@graphql-codegen/typescript-react-apollo": "^3.3.6",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
+    "supabase": "^1.14.3",
     "tailwindcss": "^3.2.3"
   }
 }
