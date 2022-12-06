@@ -6,7 +6,7 @@ const domine = Domine({
 })
 
 
-function LandingContent() {
+export function LandingContent() {
     return (
         <div className="bg-[url('/images/header_sh3.jpg')] h-screen">
             <main>
@@ -17,4 +17,4 @@ function LandingContent() {
         </div>
     )
 }
-export default LandingContent;
+

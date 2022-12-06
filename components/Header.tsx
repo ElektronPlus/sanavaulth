@@ -5,7 +5,7 @@ const domine = Domine({
     subsets: ['latin'],
 })
 
-function Header() {
+export function Header() {
     return (
         <div className="bg-[url('/images/bio_bg.jpg')] h-screen">
                         <h1 className={`${domine.className} pt-44 text-center text-6xl font-bold text-black`}>sanavaulth</h1>
@@ -13,5 +13,5 @@ function Header() {
                     </div>
     )
 }
-export default Header;
+
 

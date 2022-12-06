@@ -1,6 +1,6 @@
 import { SupportForm } from "../features/support-form/components/SupportForm";
-import Header from "components/Header";
-import LandingContent from "components/LandingContent";
+import { Header } from "components/Header";
+import { LandingContent } from "components/LandingContent";
 import Head from "next/head";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
