@@ -1,7 +1,7 @@
-export function logInButton() {
+export function LogInButton() {
     return (
         <div>
-            
+
         </div>
     )
 }
