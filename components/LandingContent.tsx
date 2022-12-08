@@ -11,7 +11,7 @@ export function LandingContent() {
         <div className="bg-[url('/images/header_sh3.jpg')] h-screen">
             <main>
                 <div className='pt-8'>
-                    <h1 className={`${domine.className} text-center text-6xl font-bold`}>sanavaulth</h1>
+                    <p className={`${domine.className} text-center`}>sanavaulth to kompletne narzędzie do bezpiecznego przechowywania Twoich plików. </p>
                 </div>
             </main>
         </div>
