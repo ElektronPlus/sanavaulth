@@ -20,12 +20,9 @@ function App({ Component, pageProps }: AppProps) {
                 initialSession={pageProps.initialSession}
             >
                 <div className={`bg-zinc-900 text-white ${inter.className}`}>
-                        <Component {...pageProps} />
-                    </div>
+                    <Component {...pageProps} />
+                </div>
             </SessionContextProvider>
-            <div className={`bg-zinc-900 text-white ${inter.className}`}>
-                <Component {...pageProps} />
-            </div>
         </ApolloProvider>
     )
 }
