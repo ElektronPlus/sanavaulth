@@ -42,11 +42,11 @@ export default function Footer() {
             <ul 
             className="absolute 
             bottom-0">
-                <li><GitHubIcon 
+                <li className='text-[36px]'><GitHubIcon 
                 className="text-[36px]
                 duration-300  
                 cursor-pointer 
-                hover:drop-shadow-[0_0_10px_rgba(116,18,240,.8)]"/></li>
+                hover:drop-shadow-[0_0_10px_rgba(116,18,240,.8)]" fontSize='inherit'/></li>
                 <li 
                 className='text-[16px] 
                 text-white/40 

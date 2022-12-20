@@ -89,12 +89,11 @@ export default function Main() {
             justify-center 
             bg-[#111329]/50 
             rounded-[50px]
-            gap-[10px]">
+            gap-[10px] text-[120px]">
                 
                 <GppGoodIcon 
-                className="text-[150px]  
-                text-[rgba(255,255,255,.2)]
-                drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" />
+                className=" text-[rgba(255,255,255,.2)]
+                drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" fontSize='inherit' />
                 
                 <h2 
                 className="text-[36px] 
@@ -118,11 +117,12 @@ export default function Main() {
             items-center 
             justify-center 
             bg-[#111329]/50 
-            rounded-[50px]"> 
+            rounded-[50px]
+            text-[120px]"> 
             <GppMaybeIcon 
-            className="text-[150px]  
+            className="
             text-[rgba(255,255,255,.2)]
-            drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" /> 
+            drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" fontSize='inherit'/> 
             
             <h2 
             className="text-[36px] 
@@ -145,12 +145,13 @@ export default function Main() {
             items-center 
             justify-center 
             bg-[#111329]/50 
-            rounded-[50px]">
+            rounded-[50px]
+            text-[120px]">
                  
             <PasswordIcon
             className="text-[150px]  
             text-[rgba(255,255,255,.2)]
-            drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" /> 
+            drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" fontSize='inherit' /> 
             
             <h2 
             className="text-[36px] 
@@ -173,12 +174,13 @@ export default function Main() {
             items-center 
             justify-center 
             bg-[#111329]/50 
-            rounded-[50px]">
+            rounded-[50px]
+            text-[120px]">
                  
             <PeopleAltIcon
             className="text-[150px]  
             text-[rgba(255,255,255,.2)]
-            drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" />
+            drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" fontSize='inherit' />
                 
             <h2 
             className="text-[36px] 
@@ -220,10 +222,10 @@ export default function Main() {
               text-white/50">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>                
             </div>
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center text-[120px]">
                 <CodeIcon className="text-[150px]
                 text-[rgba(255,255,255,.2)]
-                drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" />
+                drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" fontSize='inherit' />
                 <ul 
                     className="flex 
                     flex-col 
@@ -232,7 +234,7 @@ export default function Main() {
                     <li 
                         className="text-[20px]
                         font-semibold">{t('main.repo')}</li>
-                    <li><button 
+                    <li className='text-[40px]'><button 
                     className="w-[175px] 
                     h-[40px] 
                     rounded-full 
@@ -248,7 +250,7 @@ export default function Main() {
             </div>
         
         </div>
-        
+    
         </main>
     )
 }

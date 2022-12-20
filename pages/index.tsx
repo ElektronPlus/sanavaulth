@@ -1,11 +1,8 @@
-import { SupportForm } from "../features/support-form/components/SupportForm";
 import Head from "next/head";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { AuthForm } from "features/auth/AuthForm";
 import Navbar from "features/landing-page/Navbar";
 import Main from "features/landing-page/Main";
 import Footer from "features/landing-page/Footer";
-import { ClassNames } from "@emotion/react";
 
 export default function HomePage(): JSX.Element {
     return (
