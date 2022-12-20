@@ -6,7 +6,14 @@ module.exports = {
         "./features/**/*.{js,ts,jsx,tsx}",
       ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                'blackpule': "#000212",
+                'graypule': "#090B1D",
+                'sanahPurple': "#7450F0",
+                'sanahBlue': '#001271'
+            },
+        },
     },
     plugins: [],
 }
