@@ -122,10 +122,7 @@ export default function Main() {
     
         max-[1199px]:gap-[30px]
         max-[768px]:flex-nowrap
-        max-[768px]:w-[1400px]
-
-
-        '>
+        max-[768px]:w-[1300px]'>
             <div 
             className="w-full
             max-w-[700px] 
@@ -361,7 +358,7 @@ export default function Main() {
                 
                 max-[1199px]:text-[30px]
                 
-                max-[600px]:text-[24px]">Open-Source project</h2>
+                max-[600px]:text-[24px]">{t('main.openSource')}</h2>
 
                 <p 
                 className="text-center 

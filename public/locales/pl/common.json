@@ -36,8 +36,9 @@
         "hackProtection": "Pełne Bezpieczeństwo",
         "fileEncryption": "Szyfrowanie danych",
         "dataManagement": "Zarządzanie danymi",
-        "repo": "Reposytorium",
-        "gitHub": "GitHub"
+        "repo": "Repozytorium",
+        "gitHub": "GitHub",
+        "openSource": "Projekt Open-Source"
     },
     "footer": {
         "aboutUs": "O nas",
