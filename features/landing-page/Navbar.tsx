@@ -8,7 +8,7 @@ export default function Navbar() {
 
     return (
         <nav
-            className="flex 
+        className="flex 
         items-center 
         justify-between 
         flex-row 
@@ -19,7 +19,17 @@ export default function Navbar() {
         border-white/30 
         backdrop-blur-[10px] 
         fixed top-0 z-[222]
-        font-sans">
+        font-sans
+        
+        max-[1199px]:max-w-[850px]
+        
+        max-[900px]:max-w-[700px]
+        
+        max-[768px]:max-w-[90vw]
+        
+        max-[600px]:max-w-[100vw]
+        max-[600px]:pl-[20px]
+        max-[600px]:pr-[20px]">
             <div
                 className="cursor-pointer 
             text-[20px] 
@@ -31,7 +41,9 @@ export default function Navbar() {
             justify-center 
             flex-row 
             gap-[100px] 
-            cursor-pointer">
+            cursor-pointer
+            
+            max-[610px]:hidden">
                 <li className="cursor-pointer">{t("contact")}</li>
                 <li className="cursor-pointer">{t("team")}</li>
             </ul>

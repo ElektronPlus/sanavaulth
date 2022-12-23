@@ -13,11 +13,34 @@ export default function HomePage(): JSX.Element {
             <Head>
                     <title>sanavaulth</title>
             </Head>
-            <div className="mx-auto w-full max-w-[1200px] flex justify-center align-center self-center flex-col border-solid h-full max-h-max selection:bg-[#2a3046]/50 selection:text-white">
+            <div 
+            className="mx-auto 
+            w-full 
+            max-w-[1200px] 
+            flex 
+            justify-center 
+            align-center 
+            self-center 
+            flex-col 
+            border-solid 
+            h-full 
+            max-h-max 
+            selection:bg-[#2a3046]/50 
+            selection:text-white
+            
+            max-[1199px]:max-w-[850px]
+            
+            max-[900px]:max-w-[700px]
+            
+            max-[768px]:max-w-[90vw]
+            
+            max-[600px]:overflow-x-hidden
+            max-[600px]:max-w-[100vw]">
                 
                 <Navbar />
                 <Main />
                 <Footer />
+            
             </div>
             
         </>

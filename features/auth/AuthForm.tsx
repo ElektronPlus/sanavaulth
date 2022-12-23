@@ -8,7 +8,18 @@ export function AuthForm() {
     const supabaseClient = useSupabaseClient<Database>()
 
     return (
-        <div className='w-96 px-3 border-solid bg-[#111329]/50 rounded-lg backdrop-blur-[10px] drop-shadow-lg fixed right-0 top-[60px]'>
+        <div 
+        className='w-96 
+        px-3 
+        border-solid 
+        bg-[#111329]/90 
+        rounded-lg 
+        fixed 
+        right-0 
+        top-[60px]
+        
+        max-[600px]:w-72
+        max-[600px]:right-[20px]'>
             <h1 className='text-center mt-4 text-xl'>{t('loginForm.title')}</h1>
             <Auth 
                 view='magic_link'

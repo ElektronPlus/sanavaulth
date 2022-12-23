@@ -19,7 +19,12 @@ export default function Footer() {
         border-white/40 
         font-sans
         flex-wrap
-        relative">
+        relative
+        
+        max-[768px]:flex-col
+        max-[768px]:items-center
+        max-[768px]:justify-even
+        max-[768px]:h-[300px]">
             <p 
             className="text-[24px] 
             cursor-pointer 
@@ -29,11 +34,13 @@ export default function Footer() {
             text-center 
             flex 
             flex-col 
-            gap-[20px]">
+            gap-[20px]
+            
+            max-[768px]:gap-0">
                 <li 
                 className="text-[20px] 
                 cursor-pointer 
-                font-semibold">{t('team')}</li>
+                font-regular">{t('team')}</li>
                 <li 
                 className="cursor-pointer 
                 font-thin">{t('footer.aboutUs')}</li>
@@ -41,12 +48,17 @@ export default function Footer() {
             <SupportForm />
             <ul 
             className="absolute 
-            bottom-0">
-                <li><GitHubIcon 
+            bottom-0
+            
+            max-[768px]:flex
+            max-[768px]:flex-col
+            max-[768px]:items-center
+            max-[768px]:relative">
+                <li className='text-[36px]'><GitHubIcon 
                 className="text-[36px]
                 duration-300  
                 cursor-pointer 
-                hover:drop-shadow-[0_0_10px_rgba(116,18,240,.8)]"/></li>
+                hover:drop-shadow-[0_0_10px_rgba(116,18,240,.8)]" fontSize='inherit'/></li>
                 <li 
                 className='text-[16px] 
                 text-white/40 
