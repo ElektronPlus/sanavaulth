@@ -10,8 +10,8 @@ export default function Main() {
 
     return (
         <main 
-        className='max-[600px]:pl-[20px]
-        max-[600px]:pr-[20px]'>
+        className='max-sm:pl-5
+        max-sm:pr-5'>
         <div 
         className="flex 
         items-center 
@@ -21,8 +21,8 @@ export default function Main() {
         font-sans">
             
             <h1 
-            className="text-[96px] 
-            tracking-wider 
+            className="text-8xl 
+            tracking-widest 
             font-bold
             bg-gradient-to-tr
             from-[#fff] 
@@ -30,32 +30,32 @@ export default function Main() {
             bg-clip-text
             text-transparent
             
-            max-[1199px]:text-[72px]
+            max-xl:text-7xl
             
-            max-[600px]:text-[48px]">{t('projectName')}</h1>
+            max-sm:text-5xl">{t('projectName')}</h1>
             <p 
             className="text-white/60 
             max-w-[400px] 
             text-center 
             font-thin
-            text-[24px]
+            text-2xl
             
-            max-[1199px]:text-[20px]
+            max-[1199px]:text-xl
             max-[1199px]:max-w-[500px]
             
-            max-[600px]:text-[16px]
-            max-[600px]:max-w-[300px]">{t('main.quote')}</p>
+            max-sm:text-base
+            max-sm:max-w-[300px]">{t('main.quote')}</p>
             <button 
             className="w-[150px] 
-            h-[40px] 
+            h-10 
             rounded-full 
             bg-gradient-to-tr 
             from-[#7412F0] 
             to-[#001271] 
-            mt-[15px] 
+            mt-4 
             font-semibold 
-            tracking-[2px]
-            text-[14px] 
+            tracking-widest
+            text-sm
             hover:shadow-[0_0_20px_0_rgba(116,18,240,0.4)] 
             duration-300 ">{t('main.getStarted')}</button>
         
@@ -66,63 +66,63 @@ export default function Main() {
         bg-white/10 
         flex 
         rounded-[50px] 
-        mt-[100px] 
+        mt-24 
         shadow-[0_0_250px_0_rgba(119,122,255,0.3)]
         
         
-        max-[1199px]:h-[500px]
-        max-[1199px]:rounded-[20px]
+        max-xl:h-[500px]
+        max-xl:rounded-3xl
         
-        max-[900px]:h-[415px]
+        max-lg:h-[415px]
         
-        max-[768px]:h-[350px]"></div>
+        max-md:h-[350px]"></div>
 
             <h2 
             className="text-center 
-            text-[48px] 
-            mt-[100px] 
+            text-5xl 
+            mt-24 
             w-[600px] 
             leading-[60px]
             
-            max-[1199px]:text-[36px]
-            max-[1199px]:leading-[36px]
+            max-xl:text-4xl
+            max-xl:leading-9
             
-            max-[600px]:text-[24px]
-            max-[600px]:max-w-[400px]">{t('main.heroTitle')}</h2>
+            max-sm:text-2xl
+            max-sm:max-w-[400px]">{t('main.heroTitle')}</h2>
             <p 
             className="text-center 
             w-[600px] 
             text-white/50 
             font-thin
-            text-[18px] 
-            mt-[10px]
+            text-lg 
+            mt-3
 
-            max-[900px]:text-[16px]
-            max-[900px]:w-[500px]
+            max-lg:text-base
+            max-lg:w-[500px]
             
-            max-[600px]:max-w-[350px]
-            max-[600px]:text-[14px]">{t('main.heroText')}</p>
+            max-sm:max-w-[350px]
+            max-sm:text-sm">{t('main.heroText')}</p>
         
         </div>
         
 
         <div 
-        className="max-[768px]:snap-mandatory
-        max-[768px]:snap-y
-        max-[768px]:w-screen
-        max-[768px]:h-inherit
-        max-[768px]:overflow-x-scroll
-        max-[768px]:oveflow-y-hidden
-        max-[768px]:max-w-[90vw]">
+        className="max-md:snap-mandatory
+        max-md:snap-y
+        max-md:w-screen
+        max-md:h-inherit
+        max-md:overflow-x-scroll
+        max-md:oveflow-y-hidden
+        max-md:max-w-[90vw]">
         
         <div className='flex
         flex-wrap 
-        gap-[50px] 
-        mt-[100px]
+        gap-12 
+        mt-24
     
-        max-[1199px]:gap-[30px]
-        max-[768px]:flex-nowrap
-        max-[768px]:w-[1300px]'>
+        max-xl:gap-8
+        max-md:flex-nowrap
+        max-md:w-[1300px]'>
             <div 
             className="w-full
             max-w-[700px] 
@@ -134,42 +134,42 @@ export default function Main() {
           bg-[#111329]/50 
             rounded-[50px]
         
-            text-[120px]
+            text-9xl
         
-            max-[1199px]:max-w-[460px]
-            max-[1199px]:h-[220px]
-            max-[1199px]:rounded-[20px]
-            max-[1199px]:text-[80px]
+            max-xl:max-w-[460px]
+            max-xl:h-56
+            max-xl:rounded-3xl
+            max-xl:text-7xl
             
-            max-[900px]:max-w-[330px]
+            max-lg:max-w-[330px]
             
-            max-[768px]:snap-center
-            max-[768px]:max-w-[300px]">
+            max-md:snap-center
+            max-md:max-w-[300px]">
                 
                 <GppGoodIcon 
                 className=" text-[rgba(255,255,255,.2)]
                 drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" fontSize='inherit' />
                 
                 <h2 
-                className="text-[36px] 
+                className="text-4xl 
                 font-thin
 
-                max-[1199px]:text-[24px]">{t('main.cloudStorage')}</h2>
+                max-xl:text-2xl">{t('main.cloudStorage')}</h2>
                 
                 <p 
                 className="text-center 
                 font-thin
                 w-full
                 max-w-[500px]
-                text-[14px] 
+                text-sm 
                 text-white/50
                 
-                max-[1199px]:text-[12px]
-                max-[1199px]:max-w-[350px]
+                max-xl:xs
+                max-xl:max-w-[350px]
                 
                 
-                max-[900px]:max-w-[300px]
-                max-[768px]:max-w-[275px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                max-lg:max-w-[300px]
+                max-md:max-w-[275px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 </div>
                 
             <div 
@@ -181,17 +181,17 @@ export default function Main() {
             justify-center 
             bg-[#111329]/50 
             rounded-[50px]
-            text-[120px]
+            text-9xl
             
-            max-[1199px]:max-w-[360px]
-            max-[1199px]:h-[220px]
-            max-[1199px]:text-[80px]
-            max-[1199px]:rounded-[20px]
+            max-xl:max-w-[360px]
+            max-xl:h-56
+            max-xl:text-7xl
+            max-xl:rounded-3xl
             
-            max-[900px]:max-w-[330px]
+            max-lg:max-w-[330px]
             
-            max-[768px]:snap-center
-            max-[768px]:max-w-[300px]"> 
+            max-md:snap-center
+            max-md:max-w-[300px]"> 
             
             <GppMaybeIcon 
             className="
@@ -199,10 +199,10 @@ export default function Main() {
             drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" fontSize='inherit'/> 
             
             <h2 
-            className="text-[36px] 
+            className="text-4xl 
             font-thin
             
-            max-[1199px]:text-[24px]">{t('main.hackProtection')}
+            max-xl:text-2xl">{t('main.hackProtection')}
             </h2>
                 
             <p 
@@ -210,14 +210,14 @@ export default function Main() {
             font-thin
             w-full
             max-w-[400px] 
-            text-[14px]
+            text-sm
           text-white/50
           
-            max-[1199px]:text-[12px]
-            max-[1199px]:max-w-[350px]
+            max-xl:text-xs
+            max-xl:max-w-[350px]
             
-            max-[900px]:max-w-[300px]
-            max-[768px]:max-w-[275px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            max-lg:max-w-[300px]
+            max-md:max-w-[275px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
             </div>
            
             <div 
@@ -229,41 +229,41 @@ export default function Main() {
             justify-center 
             bg-[#111329]/50 
             rounded-[50px]
-            text-[120px]
+            text-9xl
             
-            max-[1199px]:max-w-[360px]
-            max-[1199px]:h-[220px]
-            max-[1199px]:text-[80px]
-            max-[1199px]:rounded-[20px]
+            max-xl:max-w-[360px]
+            max-xl:h-56
+            max-xl:text-7xl
+            max-xl:rounded-3xl
             
-            max-[900px]:max-w-[330px]
+            max-lg:max-w-[330px]
             
-            max-[768px]:snap-center
-            max-[768px]:max-w-[300px]"> 
+            max-md:snap-center
+            max-md:max-w-[300px]"> 
             
             <PasswordIcon
             className="text-[rgba(255,255,255,.2)]
             drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" fontSize='inherit' /> 
             
             <h2 
-            className="text-[36px] 
+            className="text-4xl 
             font-thin
             
-            max-[1199px]:text-[24px]">{t('main.fileEncryption')}</h2>
+            max-xl:text-2xl">{t('main.fileEncryption')}</h2>
                 
             <p 
             className="text-center 
             font-thin
             w-full
             max-w-[400px] 
-            text-[14px]
+            text-sm
           text-white/50
           
-            max-[1199px]:text-[12px]
-            max-[1199px]:max-w-[350px]
+            max-xl:text-xs
+            max-xl:max-w-[350px]
             
-            max-[900px]:max-w-[300px]
-            max-[768px]:max-w-[275px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            max-lg:max-w-[300px]
+            max-md:max-w-[275px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
             </div>
             
             <div 
@@ -276,41 +276,41 @@ export default function Main() {
             justify-center 
           bg-[#111329]/50 
             rounded-[50px] 
-            text-[120px]
+            text-9xl
         
-            max-[1199px]:max-w-[460px]
-            max-[1199px]:h-[220px]
-            max-[1199px]:rounded-[20px]
-            max-[1199px]:text-[80px]
+            max-xl:max-w-[460px]
+            max-xl:h-[220px]
+            max-xl:rounded-[20px]
+            max-xl:text-7xl
             
-            max-[900px]:max-w-[330px]
+            max-lg:max-w-[330px]
             
-            max-[768px]:snap-center
-            max-[768px]:max-w-[300px]">
+            max-md:snap-center
+            max-md:max-w-[300px]">
                 
             <PeopleAltIcon
             className="text-[rgba(255,255,255,.2)]
             drop-shadow-[0_0_30px_rgba(255,255,255,.8)]" fontSize='inherit' />
                 
             <h2 
-            className="text-[36px] 
+            className="text-4xl 
             font-thin
             
-            max-[1199px]:text-[24px]">{t('main.dataManagement')}</h2>
+            max-xl:text-2xl">{t('main.dataManagement')}</h2>
                 
                 <p 
                 className="text-center 
                 font-thin
                 w-full
                 max-w-[500px]
-                text-[14px] 
+                text-sm 
                 text-white/50
                 
-                max-[1199px]:text-[12px]
-                max-[1199px]:max-w-[350px]
+                max-xl:text-xs
+                max-xl:max-w-[350px]
                 
-                max-[900px]:max-w-[300px]
-                max-[768px]:max-w-[275px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                max-lg:max-w-[300px]
+                max-md:max-w-[275px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 </div>
                 </div>
         </div>
@@ -326,49 +326,49 @@ export default function Main() {
         bg-[#111329]/50 
         rounded-[50px] 
         shadow-[0_0_200px_0_rgba(240,240,240,0.1)]
-        text-[120px]
+        text-9xl
         
-        max-[1199px]:h-[300px]
-        max-[1199px]:max-w-[850px]
-        max-[1199px]:text-[80px]
-        max-[1199px]:mt-[50px]
-        max-[1199px]:rounded-[20px]
+        max-xl:h-[300px]
+        max-xl:max-w-[850px]
+        max-xl:text-7xl
+        max-xl:mt-[50px]
+        max-xl:rounded-[20px]
         
-        max-[768px]:mt-[75px]
+        max-md:mt-20
         
-        max-[600px]:flex-col
-        max-[600px]:h-[460px]
-        max-[600px]:justify-center
-        max-[600px]:p-[20px]">
+        max-sm:flex-col
+        max-sm:h-[460px]
+        max-sm:justify-center
+        max-sm:p-5">
             
             <div 
             className="flex 
             flex-col 
             items-center 
-            gap-[20px]
+            gap-5
             
-            max-[1199px]:gap-0">
+            max-xl:gap-0">
 
                 <h2 
-                className="text-[36px] 
+                className="text-4xl 
                 w-full 
                 max-w-[450px] 
                 text-center 
                 font-thin
                 
-                max-[1199px]:text-[30px]
+                max-xl:text-3xl
                 
-                max-[600px]:text-[24px]">{t('main.openSource')}</h2>
+                max-sm:text-2xl">{t('main.openSource')}</h2>
 
                 <p 
                 className="text-center 
                 font-thin
                 w-full
                 max-w-[350px]
-                text-[14px] 
+                text-sm
               text-white/50
               
-                max-[600px]:max-w-[300px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>                
+                max-sm:max-w-[300px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>                
             </div>
 
             <div className="flex 
@@ -381,18 +381,18 @@ export default function Main() {
                     flex-col 
                     items-center">
                     <li 
-                        className="text-[20px]
+                        className="text-xl
                         font-regulat">{t('main.repo')}</li>
-                    <li className='text-[40px]'><button 
-                    className="w-[175px] 
-                    h-[40px] 
-                    rounded-full 
+                    <li className='text-4xl'><button 
+                    className="w-44 
+                    h-10 
+                    rounded-[50px] 
                     bg-gradient-to-tr 
                     from-[#7412F0] 
                     to-[#001271]
                     font-semibold
-                    text-[14px] 
-                    tracking-[2px]
+                    text-sm
+                    tracking-widest
                     hover:shadow-[0_0_20px_0_rgba(116,18,240,0.4)] 
                     duration-300">{t('main.gitHub')}</button></li>
                 </ul>

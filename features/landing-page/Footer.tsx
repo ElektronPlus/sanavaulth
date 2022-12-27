@@ -10,9 +10,9 @@ export default function Footer() {
         <footer 
         className="w-full 
         max-w-[1200px]
-        h-[250px] 
-        mt-[100px] 
-        pt-[20px] 
+        h-64 
+        mt-24 
+        pt-5 
         flex 
         justify-between 
         border-t-[0.5px] 
@@ -21,12 +21,12 @@ export default function Footer() {
         flex-wrap
         relative
         
-        max-[768px]:flex-col
-        max-[768px]:items-center
-        max-[768px]:justify-even
-        max-[768px]:h-[300px]">
+        max-md:flex-col
+        max-md:items-center
+        max-md:justify-even
+        max-md:h-[300px]">
             <p 
-            className="text-[24px] 
+            className="text-2xl 
             cursor-pointer 
             font-bold">{t('projectName')}</p>
             <ul 
@@ -34,11 +34,11 @@ export default function Footer() {
             text-center 
             flex 
             flex-col 
-            gap-[20px]
+            gap-5
             
-            max-[768px]:gap-0">
+            max-md:gap-0">
                 <li 
-                className="text-[20px] 
+                className="text-xl 
                 cursor-pointer 
                 font-regular">{t('team')}</li>
                 <li 
@@ -50,17 +50,17 @@ export default function Footer() {
             className="absolute 
             bottom-0
             
-            max-[768px]:flex
-            max-[768px]:flex-col
-            max-[768px]:items-center
-            max-[768px]:relative">
-                <li className='text-[36px]'><GitHubIcon 
-                className="text-[36px]
+            max-md:flex
+            max-md:flex-col
+            max-md:items-center
+            max-md:relative">
+                <li className='text-4xl'><GitHubIcon 
+                className="text-4xl
                 duration-300  
                 cursor-pointer 
                 hover:drop-shadow-[0_0_10px_rgba(116,18,240,.8)]" fontSize='inherit'/></li>
                 <li 
-                className='text-[16px] 
+                className='text-base 
                 text-white/40 
                 cursor-default'>{t('footer.createdBy')}</li>
             </ul>

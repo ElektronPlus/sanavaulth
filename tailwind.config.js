@@ -12,7 +12,12 @@ module.exports = {
                 'graypule': "#090B1D",
                 'sanahPurple': "#7450F0",
                 'sanahBlue': '#001271'
-            },
+            }, breakpoints: {
+                'sm':'600px',
+                'md':'768px',
+                'lg':'900px',
+                'xl':'1199px'
+            }
         },
     },
     plugins: [],

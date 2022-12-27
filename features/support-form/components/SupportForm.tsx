@@ -27,14 +27,14 @@ export function SupportForm() {
         bottom-0 
         right-0
 
-        max-[768px]:relative
-        max-[768px]:rounded-[50px]
-        max-[768px]:bg-gradient-to-tr 
+        max-md:relative
+        max-md:rounded-[50px]
+        max-md:bg-gradient-to-tr 
         from-[#7412F0] 
         to-[#001271]
-        max-[768px]:h-[40px]
-        max-[768px]:w-[200px]
-        max-[768px]:text-bold">
+        max-md:h-10
+        max-md:w-[200px]
+        max-md:text-bold">
           {t("supportForm.help")}
         </button>
       }
@@ -77,7 +77,7 @@ export function SupportForm() {
           max-[400px]:h-[150px]"
         />
         <Button type="submit"
-        className="max-[600px]:text-[24px]">{t("submit")}</Button>
+        className="max-sm:text-2xl">{t("submit")}</Button>
       </form>
     </Dialog>
   );

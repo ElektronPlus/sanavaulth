@@ -45,8 +45,8 @@ export function AuthForm() {
                         default: {
                             colors: {
                                 inputText: 'white',
-                                brand: '#7450F0',
-                                brandAccent: '#7450F0'
+                                brand: '#26269b',
+                                brandAccent: '#26269b'
                             }
                         }
                     }

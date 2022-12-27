@@ -1,9 +1,10 @@
 import { AuthForm } from "features/auth/AuthForm"
 import { useState } from "react"
 import { useTranslation } from "next-i18next";
+import Link from "next/link";
 
 export default function Navbar() {
-    const [openLogin, setOpenLogin] = useState<Boolean>(false)
+    const [openLogin, setOpenLogin] = useState<boolean>(false)
     const { t } = useTranslation("common");
 
     return (
@@ -21,31 +22,31 @@ export default function Navbar() {
         fixed top-0 z-[222]
         font-sans
         
-        max-[1199px]:max-w-[850px]
+        max-xl:max-w-[850px]
         
-        max-[900px]:max-w-[700px]
+        max-lg:max-w-[700px]
         
-        max-[768px]:max-w-[90vw]
+        max-md:max-w-[90vw]
         
-        max-[600px]:max-w-[100vw]
-        max-[600px]:pl-[20px]
-        max-[600px]:pr-[20px]">
+        max-sm:max-w-[100vw]
+        max-sm:pl-[20px]
+        max-sm:pr-[20px]">
             <div
                 className="cursor-pointer 
-            text-[20px] 
+            text-xl 
             font-bold
-            tracking-widest">{t('projectName')}</div>
+            tracking-widest"><Link href="#"> {t('projectName')} </Link></div>
             <ul
                 className="flex 
             items-center 
             justify-center 
             flex-row 
-            gap-[100px] 
+            gap-24
             cursor-pointer
             
             max-[610px]:hidden">
-                <li className="cursor-pointer">{t("contact")}</li>
-                <li className="cursor-pointer">{t("team")}</li>
+                <li className="cursor-pointer"><Link href="#">{t("contact")}</Link></li>
+                <li className="cursor-pointer"><Link href="#">{t("team")}</Link></li>
             </ul>
             {
                 openLogin
@@ -56,14 +57,14 @@ export default function Navbar() {
                     : <div>
                         <button
                             className="w-[150px] 
-                            h-[40px] 
+                            h-10 
                             rounded-full 
                             bg-gradient-to-tr 
                             from-sanahPurple
                             to-sanahBlue
                             font-semibold 
-                            tracking-[2px]
-                            text-[14px]
+                            tracking-
+                            text-sm
                             hover:shadow-[0_0_20px_0_rgba(116,18,240,0.4)] 
                             duration-300"
                             onClick={() => setOpenLogin(true)}
