@@ -1,14 +1,14 @@
 import Head from "next/head";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Navbar from "features/landing-page/Navbar";
-import Main from "features/landing-page/Main";
-import Footer from "features/landing-page/Footer";
+import {Navbar} from "features/landing-page/Navbar";
+import {Main} from "features/landing-page/Main";
+import {Footer} from "features/landing-page/Footer";
 
 export default function HomePage() {
     return (
         <>
             <Head>
-                    <title>sanavaulth</title>
+                    <title>SanaVaulth</title>
             </Head>
             <div 
             className="mx-auto 

@@ -3,7 +3,7 @@ import { useState } from "react"
 import { useTranslation } from "next-i18next";
 import Link from "next/link";
 
-export default function Navbar() {
+export const Navbar = () => {
     const [openLogin, setOpenLogin] = useState<boolean>(false)
     const { t } = useTranslation("common");
 

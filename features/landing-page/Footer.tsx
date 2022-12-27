@@ -2,7 +2,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import { SupportForm } from 'features/support-form/components/SupportForm';
 import { useTranslation } from "next-i18next";
 
-export default function Footer() {
+export const Footer = () => {
 
     const { t } = useTranslation("common");
 

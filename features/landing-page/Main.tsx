@@ -5,7 +5,7 @@ import PasswordIcon from '@mui/icons-material/Password';
 import CodeIcon from '@mui/icons-material/Code';
 import { useTranslation } from "next-i18next";
 
-export default function Main() {
+export const Main = () => {
     const { t } = useTranslation("common");
 
     return (
