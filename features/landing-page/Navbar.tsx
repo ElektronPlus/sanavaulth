@@ -3,7 +3,7 @@ import { useState } from "react"
 import { useTranslation } from "next-i18next";
 
 export default function Navbar() {
-    const [openLogin, setOpenLogin] = useState<Boolean>(false)
+    const [openLogin, setOpenLogin] = useState<boolean>(false)
     const { t } = useTranslation("common");
 
     return (
