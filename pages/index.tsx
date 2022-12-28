@@ -1,14 +1,16 @@
 import Head from "next/head";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import {Navbar} from "features/landing-page/Navbar";
-import {Main} from "features/landing-page/Main";
-import {Footer} from "features/landing-page/Footer";
+import { Navbar } from "features/landing-page/Navbar";
+import { Main } from "features/landing-page/Main";
+import { Footer } from "features/landing-page/Footer";
+import { useTranslation } from "next-i18next";
 
 export default function HomePage() {
+    const { t } = useTranslation("common");
     return (
         <>
             <Head>
-                    <title>SanaVaulth</title>
+                    <title>{t('projectName')}</title>
             </Head>
             <div 
             className="mx-auto 
