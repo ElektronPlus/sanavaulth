@@ -22,12 +22,29 @@ export function SupportForm() {
       title={t("supportForm.title")}
       description={t("supportForm.description")}
       button={
-        <button className="absolute bottom-4 right-4">
+        <button 
+        className="absolute 
+        bottom-0 
+        right-0
+
+        max-md:relative
+        max-md:rounded-[50px]
+        max-md:bg-gradient-to-tr 
+        from-[#7412F0] 
+        to-[#001271]
+        max-md:h-10
+        max-md:w-[200px]
+        max-md:text-bold">
           {t("supportForm.help")}
         </button>
       }
     >
-      <form className="grid gap-5" onSubmit={handleSubmit(onMessageCreate)}>
+      <form 
+      className="grid 
+      gap-5
+      
+      max-[500px]:w-[70vw]
+      max-[400px]:h-[400px]" onSubmit={handleSubmit(onMessageCreate)}>
         <Input
           type="text"
           {...register("name")}
@@ -52,9 +69,15 @@ export function SupportForm() {
           cols={30}
           rows={10}
           placeholder={t("supportForm.textPlaceholder")}
-          className="mt-2 rounded py-1 px-1"
+          className="mt-2 
+          rounded 
+          py-1 
+          px-1
+          
+          max-[400px]:h-[150px]"
         />
-        <Button type="submit">{t("submit")}</Button>
+        <Button type="submit"
+        className="max-sm:text-2xl">{t("submit")}</Button>
       </form>
     </Dialog>
   );

@@ -16,6 +16,8 @@
     "@graphql-codegen/introspection": "^2.2.1",
     "@graphql-codegen/near-operation-file-preset": "^2.4.4",
     "@graphql-codegen/typescript-operations": "^2.5.7",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.0",
     "@next/font": "^13.0.3",
     "@radix-ui/react-dialog": "^1.0.2",
     "@supabase/auth-helpers-nextjs": "^0.5.2",
