@@ -3,6 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import {Navbar} from "features/landing-page/Navbar";
 import {Main} from "features/landing-page/Main";
 import {Footer} from "features/landing-page/Footer";
+import { Home } from "features/user-panel/Home";
 
 export default function HomePage() {
     return (
@@ -34,10 +35,11 @@ export default function HomePage() {
             max-sm:overflow-x-hidden
             max-sm:max-w-[100vw]">
                 
+                
                 <Navbar />
                 <Main />
                 <Footer />
-            
+                
             </div>
             
         </>

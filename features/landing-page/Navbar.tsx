@@ -35,7 +35,7 @@ export const Navbar = () => {
                 className="cursor-pointer 
             text-xl 
             font-bold
-            tracking-widest"><Link href="#"> {t('projectName')} </Link></div>
+            tracking-widest"><Link href="/vault"> {t('projectName')} </Link></div>
             <ul
                 className="flex 
             items-center 
