@@ -43,5 +43,18 @@
     "footer": {
         "aboutUs": "O nas",
         "createdBy": "Stworzone przez Team Sanaszki"
+    },
+    "userPanel": {
+        "userName": "Sanah ",
+        "greeting": "Witaj ",
+        "freeSpace": "Zajęte miejsce",
+        "myFiles": "Moje pliki",
+        "spacePercentage": "80%",
+        "files": " tutaj są twoje pliczki!",
+        "liked": "tutaj są polubione pliczki!",
+        "shared": "tutaj są udostępnione pliczki!",
+        "deleted": "tutaj są usunięte pliczki!",
+        "fileName": "Nudesy Sanah",
+        "fileFormat": "TXT"
     }
 }

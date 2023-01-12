@@ -1,4 +1,4 @@
-import { Home } from "features/user-panel/Home";
+import { Deleted } from "./Deleted";
 import { Navbar } from "features/user-panel/Navbar";
 import Head from "next/head";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -16,7 +16,7 @@ export default function vaultHome() {
         sm:flex-row
         sm:justify-between">
             <Navbar />
-            <Home />
+            <Deleted />
         </div>
     </>
     )

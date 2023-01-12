@@ -12,6 +12,7 @@ export const Main = () => {
         <main 
         className='max-sm:pl-5
         max-sm:pr-5'>
+        
         <div 
         className="flex 
         items-center 

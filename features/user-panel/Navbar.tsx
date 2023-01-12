@@ -5,9 +5,12 @@ import FolderOutlinedIcon from '@mui/icons-material/FolderOutlined';
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-
+import Link from 'next/link'
+import { useRouter } from 'next/router';
 
 export const Navbar = () => {
+    const router = useRouter();
+    
     return (
         <>
             <div 
@@ -49,13 +52,61 @@ export const Navbar = () => {
                         sm:absolute
                         sm:top-28
                         sm:gap-7'>
-                            <li ><HomeOutlinedIcon fontSize='inherit' /></li>
-                            <li><FavoriteBorderOutlinedIcon fontSize='inherit' /></li>
-                            <li><FolderOutlinedIcon fontSize='inherit' /></li>
-                            <li><ShareOutlinedIcon fontSize='inherit' /></li>
-                            <li ><DeleteOutlineOutlinedIcon fontSize='inherit' /> </li>
+                            <li className='w-10
+                            h-10
+                            bg-[#010416]
+                            flex
+                            items-center
+                            justify-center
+                            rounded-full
+                            shadow-[0_0px_10px_0px_rgba(255,255,255,0.1)]
+
+                            sm:w-14
+                            sm:h-14
+                            sm:rounded-lg
+                            sm:shadow-[0_2px_0px_0px_rgba(255,255,255,0.1)]'>
+                                <Link href="/vault" className={router.pathname == "/" ? "active" : ""}>
+                                    <HomeOutlinedIcon fontSize='inherit' />
+                                </Link>
+                            </li>
+                            
+                            <li className='flex
+                            items-center
+                            justify-center'>
+                                <Link href='/Liked' className={router.pathname == "/" ? "active" : ""}>
+                                    <FavoriteBorderOutlinedIcon fontSize='inherit' />
+                                </Link>
+                            </li>
+                            
+                            <li className='flex
+                            items-center
+                            justify-center'>
+                                <Link href="/Files">
+                                    <FolderOutlinedIcon fontSize='inherit' />
+                                </Link>
+                            </li>
+
+                            <li className='flex
+                            items-center
+                            justify-center'>
+                                <Link href="/Shared">
+                                    <ShareOutlinedIcon fontSize='inherit' />
+                                </Link>
+                            </li>
+                            
+                            <li className='flex
+                            items-center
+                            justify-center'>
+                            <Link href="/Deleted">
+                                <DeleteOutlineOutlinedIcon fontSize='inherit' />
+                            </Link> 
+                            </li>
                         </ul>
                         <SettingsOutlinedIcon className='text-2xl
+                        flex
+                        items-center
+                        justify-center
+
                         sm:absolute
                         sm:bottom-0
                         sm:text-3xl'/>
@@ -89,7 +140,7 @@ export const Navbar = () => {
                             className='font-sans 
                             text-lg
                             
-                            sm:hidden'>Witaj, <span 
+                            sm:hidden'>Witaj <span 
                             className='font-bold
                             bg-gradient-to-bl
                             from-[#7458F0] 
