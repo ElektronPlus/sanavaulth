@@ -12,9 +12,8 @@ export const Home = () => {
             justify-center
             items-center
             w-full
-            gap-5
-            
-            sm:w-[80%]">
+            h-[100vh]
+            gap-5">
 
                   <img src="https://cdn.discordapp.com/attachments/1034917101300879371/1053363924277403750/318776430_475431438013810_5437310006260211539_n.jpg" alt="" 
                   className='sm:rounded-2xl
@@ -38,7 +37,7 @@ export const Home = () => {
                 <h2 className="text-2xl
                 mt-40">{t("userPanel.freeSpace")}</h2>
             
-                  <div className="w-[70vw]
+                  <div className="w-[50vw]
                   h-8
                   bg-stone-900
                   rounded-full
@@ -52,7 +51,7 @@ export const Home = () => {
                   flex
                   items-center
                   justify-center
-                  font-sans"><span className='sm:hidden'>{t("userPanel.spacePercentage")}</span></div> 
+                  font-sans"><span>{t("userPanel.spacePercentage")}</span></div> 
                   </div>
                 
                   <h3 className="text-2xl

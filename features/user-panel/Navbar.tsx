@@ -26,7 +26,7 @@ export const Navbar = () => {
 
             sm:w-[120px]
             sm:h-[100vh]
-            sm:relative">
+            sm:left-0">
                     
                     <div 
                     className="bg-[#090B1D]

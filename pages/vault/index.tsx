@@ -14,7 +14,8 @@ export default function vaultHome() {
         h-full
         
         sm:flex-row
-        sm:justify-between">
+        sm:justify-center
+        sm:items-center">
             <Navbar />
             <Home />
         </div>
