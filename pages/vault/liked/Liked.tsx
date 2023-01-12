@@ -1,6 +1,5 @@
-import { File } from "../vault/File"
+import { File } from "../File"
 import { useTranslation } from "next-i18next"
-import { use } from "i18next"
 
 export const Liked = () => {
     const { t } = useTranslation("common")

@@ -1,9 +1,9 @@
-import { Files } from "./Files";
+import { Liked } from "./Liked";
 import { Navbar } from "features/user-panel/Navbar";
 import Head from "next/head";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-export default function vaultHome() {
+export default function vaultLiked() {
     return (
     <>
         <Head>
@@ -14,9 +14,10 @@ export default function vaultHome() {
         h-full
         
         sm:flex-row
-        sm:justify-between">
+        sm:justify-center
+        sm:items-center">
             <Navbar />
-            <Files />
+            <Liked />
         </div>
     </>
     )

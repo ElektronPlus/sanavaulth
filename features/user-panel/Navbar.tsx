@@ -36,7 +36,6 @@ export const Navbar = () => {
                     sm:flex-col
                     sm:h-full
                     sm:relative">
-                        {/* here */}
                         <ul 
                         className='flex
                         flex-row
@@ -49,10 +48,10 @@ export const Navbar = () => {
                         sm:top-28
                         sm:gap-7'>
                             <NavbarButton type='home' selected={router.asPath == '/vault'} />
-                            <NavbarButton type='liked' selected={router.asPath == '/Liked'} />
-                            <NavbarButton type='files' selected={router.asPath == '/Files'} />
-                            <NavbarButton type='shared' selected={router.asPath == '/Shared'} />
-                            <NavbarButton type='deleted' selected={router.asPath == '/Deleted'} />
+                            <NavbarButton type='liked' selected={router.asPath == '/vault/liked'} />
+                            <NavbarButton type='files' selected={router.asPath == '/vault/files'} />
+                            <NavbarButton type='shared' selected={router.asPath == '/vault/shared'} />
+                            <NavbarButton type='deleted' selected={router.asPath == '/vault/deleted'} />
                         </ul>
                         <SettingsOutlinedIcon className='text-2xl
                         flex
@@ -83,9 +82,10 @@ export const Navbar = () => {
                         
                         sm:absolute
                         sm:top-5'>
-                            <li><img src="https://cdn.discordapp.com/attachments/1034917101300879371/1053363924277403750/318776430_475431438013810_5437310006260211539_n.jpg" alt="" 
+                            <li className='ml-2'><img src="https://cdn.discordapp.com/attachments/1034917101300879371/1053363924277403750/318776430_475431438013810_5437310006260211539_n.jpg" alt="" 
                             className='w-9 
                             rounded-full
+                            mx-auto
                             
                             sm:w-16' /></li>
                             <li><p 
