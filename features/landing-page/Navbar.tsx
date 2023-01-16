@@ -46,7 +46,7 @@ export const Navbar = () => {
             
             max-[610px]:hidden">
                 <li className="cursor-pointer"><Link href="#">{t("contact")}</Link></li>
-                <li className="cursor-pointer"><Link href="#">{t("team")}</Link></li>
+                <li className="cursor-pointer"><Link href="/about">{t("team")}</Link></li>
             </ul>
             {
                 openLogin
