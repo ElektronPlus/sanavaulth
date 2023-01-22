@@ -1,5 +1,6 @@
 import { useTranslation } from "next-i18next";
 import Link from "next/link";
+import Image from 'next/image'
 
 export const AboutTeam = () => {
 
@@ -7,30 +8,39 @@ export const AboutTeam = () => {
 
     return (
         <div>
-            <div>
-                <div>
-                    <a href=""></a>
-                    <img src="#"></img>
-                    <p>Jan Szymański</p>
-                </div>
+            <div className="flex ">
+                <a href="">
+                <Image src="#"
+                    alt="konhi-image"
+                    width={500}
+                    height={500}>
+                </Image>
+                <p>Jan Szymański</p>
+                </a>
             </div>
-            <div>
-                <div>
-                    <img src="#"></img>
-                    <p>Krystian Wybranowski</p>
-                </div>
+            <div className="flex ">
+                <Image src="#"
+                    alt="wybran-image"
+                    width={500}
+                    height={500}>
+                </Image>
+                <p>Krystian Wybranowski</p>
             </div>
-            <div>
-                <div>
-                    <img src="#"></img>
-                    <p>Bartosz Sułkowski</p>
-                </div>
+            <div className="flex ">
+                <Image src="#"
+                    alt="mopsior-image"
+                    width={500}
+                    height={500}>
+                </Image>
+                <p>Bartosz Sułkowski</p>
             </div>
-            <div>
-                <div>
-                    <img src="#"></img>
-                    <p>Bartosz Maciejewski</p>
-                </div>
+            <div className="flex">
+                <Image src="#"
+                    alt="bkmac-image"
+                    width={500}
+                    height={500}>
+                </Image>
+                <p>Bartosz Maciejewski</p>
             </div>
         </div>
     )
