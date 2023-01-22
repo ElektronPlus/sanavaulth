@@ -28,6 +28,7 @@ export default function About() {
             max-sm:overflow-x-hidden
             max-sm:max-w-[100vw]">
             <Navbar />
+            <AboutTeam />
             </div>
         </>
     )
