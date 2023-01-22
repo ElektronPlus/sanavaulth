@@ -1,3 +1,4 @@
+import { Footer } from "features/landing-page/Footer";
 import { useTranslation } from "next-i18next";
 import Image from 'next/image'
 
@@ -38,7 +39,7 @@ export const AboutTeam = () => {
                 </a>
             </div>
             <div className="flex">
-                <a href="https://github.com/ddebix">
+                <a href="https://github.com/ddebixx">
                 <Image src="/../public/images/andrii.jpg"
                     alt="andrii-image"
                     width={500}
@@ -57,6 +58,7 @@ export const AboutTeam = () => {
                 <p>Bartosz Maciejewski</p>
                 </a>
             </div>
+            <Footer />
         </div>
     )
 }
