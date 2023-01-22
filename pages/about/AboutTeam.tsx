@@ -1,5 +1,4 @@
 import { useTranslation } from "next-i18next";
-import Link from "next/link";
 import Image from 'next/image'
 
 export const AboutTeam = () => {
