@@ -1,5 +1,6 @@
 import { Footer } from "features/landing-page/Footer";
 import { useTranslation } from "next-i18next";
+import { useState } from "react";
 import Image from 'next/image'
 
 export const AboutTeam = () => {
