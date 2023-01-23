@@ -9,7 +9,7 @@ export const AboutTeam = () => {
     return (
         <div>
             <div className="flex mt-40">
-                <div className="grid-rows">
+
                 <div className="flex mx-8">
                     <a href="https://github.com/konhi">
                         <Image className="rounded-full" src="/../public/images/konhi.jpg"
@@ -27,7 +27,6 @@ export const AboutTeam = () => {
                             width={500}
                             height={500}
                         />
-
                         <p className="items-center text-center mt-8">Krystian Wybranowski</p>
                     </a>
                 </div>
@@ -40,7 +39,6 @@ export const AboutTeam = () => {
                         />
                         <p className="items-center text-center mt-8">Bartosz Sułkowski</p>
                     </a>
-                </div>
                 </div>
                 <div className="flex mx-8">
                     <a href="https://github.com/ddebixx">
