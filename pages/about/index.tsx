@@ -1,4 +1,5 @@
 import { Navbar } from "../../features/landing-page/Navbar";
+import { Footer } from "features/landing-page/Footer";
 import { AboutTeam } from "./AboutTeam";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
@@ -29,7 +30,8 @@ export default function About() {
             max-sm:max-w-[100vw]">
             <Navbar />
             <AboutTeam />
-            </div>
+            <Footer />
+        </div>
         </>
     )
 }
