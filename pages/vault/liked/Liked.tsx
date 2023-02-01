@@ -1,7 +1,7 @@
-import { File } from "../File"
+import File from "../File"
 import { useTranslation } from "next-i18next"
 
-export const Liked = () => {
+export default function Liked() {
     const { t } = useTranslation("common")
 
     return (

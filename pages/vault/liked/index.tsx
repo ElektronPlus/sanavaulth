@@ -1,4 +1,4 @@
-import { Liked } from "./Liked";
+import Liked from "./Liked";
 import { Navbar } from "features/user-panel/Navbar";
 import Head from "next/head";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'

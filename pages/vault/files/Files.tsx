@@ -1,7 +1,7 @@
-import { File } from "pages/vault/File"
+import File from "pages/vault/File"
 import { useTranslation } from "next-i18next"
 
-export const Files = () => {
+export default function Files() {
     const { t } = useTranslation("common")
 
     return (

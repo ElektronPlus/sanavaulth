@@ -1,6 +1,6 @@
 import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
 
-export const File = () => {
+export default function File() {
     return (
         <>
             <div className="flex

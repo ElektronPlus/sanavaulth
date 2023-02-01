@@ -1,7 +1,7 @@
-import { File } from "pages/vault/File"
+import File from "pages/vault/File"
 import { useTranslation } from "next-i18next"
 
-export const Deleted = () => {
+export default function Deleted() {
     const { t } = useTranslation("common");
 
     return (
