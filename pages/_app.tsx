@@ -19,7 +19,7 @@ function App({ Component, pageProps }: AppProps) {
                 supabaseClient={supabaseClient}
                 initialSession={pageProps.initialSession}
             >
-                <div className={`bg-zinc-900 text-white ${inter.className}`}>
+                <div className={`bg-blackpule text-white ${inter.className}`}>
                     <Component {...pageProps} />
                 </div>
             </SessionContextProvider>

@@ -1,4 +1,5 @@
 {
+    "projectName": "SanaVaulth", 
     "supportForm": {
         "title": "Potrzebujesz pomocy?",
         "description": "Odpiszemy w ciągu 24 godzin",
@@ -22,5 +23,38 @@
     "name": "Imię",
     "surname": "Nazwisko",
     "email": "E-mail",
-    "submit": "Wyślij"
+    "submit": "Wyślij",
+    "contact": "Kontakt",
+    "team": "Nasz zespół",
+    "login": "Zaloguj się",
+    "main": {
+        "quote": "To piękny i bezpieczny sposób na przechowywanie twoich danych",
+        "getStarted": "Rozpocznij",
+        "heroTitle": "Zupełnie nowe podejście do przechowywania danych",
+        "heroText": "Zaprojektowany z bezlitosną precyzją, aby otrzymać perfekcje. W SanaVaulth nowoczesność idzie razem z bezpieczeństwem",
+        "cloudStorage": "Chmura Danych",
+        "hackProtection": "Pełne Bezpieczeństwo",
+        "fileEncryption": "Szyfrowanie danych",
+        "dataManagement": "Zarządzanie danymi",
+        "repo": "Repozytorium",
+        "gitHub": "GitHub",
+        "openSource": "Projekt Open-Source"
+    },
+    "footer": {
+        "aboutUs": "O nas",
+        "createdBy": "Stworzone przez Team Sanaszki"
+    },
+    "userPanel": {
+        "userName": "Sanah ",
+        "greeting": "Witaj ",
+        "freeSpace": "Zajęte miejsce",
+        "myFiles": "Moje pliki",
+        "spacePercentage": "80%",
+        "files": " tutaj są twoje pliczki!",
+        "liked": "tutaj są polubione pliczki!",
+        "shared": "tutaj są udostępnione pliczki!",
+        "deleted": "tutaj są usunięte pliczki!",
+        "fileName": "Nudesy Sanah",
+        "fileFormat": "TXT"
+    }
 }

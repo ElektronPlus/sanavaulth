@@ -1,17 +1,12 @@
-import Head from "next/head";
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import {Navbar} from "features/landing-page/Navbar";
-import {Main} from "features/landing-page/Main";
-import {Footer} from "features/landing-page/Footer";
+import { Navbar } from "../../features/landing-page/Navbar";
+import { Footer } from "features/landing-page/Footer";
+import AboutTeam from "pages/about/AboutTeam";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-export default function HomePage() {
-    return (
+export default function About() {
+    return(
         <>
-            <Head>
-                    <title>SanaVaulth</title>
-            </Head>
-            <div 
-            className="mx-auto 
+        <div className="mx-auto 
             w-full 
             max-w-[1200px] 
             flex 
@@ -24,23 +19,19 @@ export default function HomePage() {
             max-h-max 
             selection:bg-[#2a3046]/50 
             selection:text-white
-            
+
             max-xl:max-w-[850px]
-            
+
             max-lg:max-w-[700px]
-            
+
             max-md:max-w-[90vw]
-            
+
             max-sm:overflow-x-hidden
             max-sm:max-w-[100vw]">
-                
-                
-                <Navbar />
-                <Main />
-                <Footer />
-                
-            </div>
-            
+            <Navbar />
+            <AboutTeam />
+            <Footer />
+        </div>
         </>
     )
 }
