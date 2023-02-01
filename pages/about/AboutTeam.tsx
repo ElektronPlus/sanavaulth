@@ -1,7 +1,7 @@
 import { useTranslation } from "next-i18next";
 import Image from 'next/image'
 
-export const AboutTeam = () => {
+export default function AboutTeam() {
 
     const { t } = useTranslation("common");
 

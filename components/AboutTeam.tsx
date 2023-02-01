@@ -1,1 +1,1 @@
-import { AboutTeam } from "pages/about/AboutTeam";
+import AboutTeam from "pages/about/AboutTeam";

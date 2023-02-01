@@ -1,6 +1,6 @@
 import { Navbar } from "../../features/landing-page/Navbar";
 import { Footer } from "features/landing-page/Footer";
-import { AboutTeam } from "./AboutTeam";
+import AboutTeam from "pages/about/AboutTeam";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function About() {
